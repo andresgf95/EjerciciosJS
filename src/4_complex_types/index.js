@@ -19,7 +19,14 @@
  */
 
 // Write your code here.
-
+let odd 
+odd = [1,3,5,7]
+let pet
+pet = {
+    name: "KitKat",
+    birthYear: 1983,
+    vaccined: true
+}
 /**
  * Don't to change next lines.
  */

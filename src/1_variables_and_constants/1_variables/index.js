@@ -20,7 +20,11 @@ variableWithValue = 22
 variableToBeAssignedLater = 11
 
 // Write your code here.
-
+let myEmptyVariable
+let myBornYear
+let myAge
+myAge = 42
+myBornYear = 1927
 /**
  * Don't to change next lines.
  */

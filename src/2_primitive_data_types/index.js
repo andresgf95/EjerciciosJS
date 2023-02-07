@@ -18,7 +18,14 @@
  */
 
 // Write your code here.
-
+let myNumber
+myNumber = 1
+myString = "hola"
+turnedOn = true
+let noValue
+noValue = undefined
+let unknownValue 
+unknownValue = null
 /**
  * Don't to change next lines.
  */

@@ -5,6 +5,8 @@
  */
 
 // Escribe aquí o teu código.
+const resposta = document.querySelector("input")
+resposta.innerText = "ola"
 
 /**
  * Non cambies nada despois destas liñas

@@ -4,14 +4,17 @@
  */
 
 // Escribe aquí o teu código."
+
 const entradaDoTexto = document.querySelector("textarea")
-const saidaDoResultado = document.querySelector("enMaiusculas")
+const saidaDoResultado = document.getElementById("enMaiusculas")
+
 function actualizaSaidaEnMaiusculas() {
-    entradaDoTexto = entradaDoTexto.value
-    saidaDoResultado = entradaDoTexto.toUpperCase()
-    saidaDoResultado.innerText =  saidaDoResultado
+    const TextoIntroducido = entradaDoTexto.value
+    const textoEnMaiusculas = TextoIntroducido.toUpperCase()
+    saidaDoResultado.innerText = textoEnMaiusculas
 }
-actualizaSaidaEnMaiusculas = entradaDoTexto.addEventListener
+entradaDoTexto.addEventListener("input",actualizaSaidaEnMaiusculas)
+
 /**
  * Non cambies nada despois destas liñas
  */
